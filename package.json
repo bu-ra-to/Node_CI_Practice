@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "jest": {
-    "setupTestFrameworkScriptFile": "./tests/setup.js"
-  },
+  "jest": "--forceExit",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js --ignore tests",
